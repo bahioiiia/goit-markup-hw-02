@@ -24,11 +24,11 @@ a {
         color: #4d5ae5;
 }
 
-.logo-head-span {
+.head-logo-span {
     color: #2e2f42;
 }
 
-.logo-foot-span {
+.foot-logo-span {
     color: #f4f4fd;
 }
 
@@ -130,12 +130,14 @@ a {
 
 /*=======PORTFOLIO========*/
 
-.portfolio {}
+.portfolio {
+    text-transform: capitalize;
+}
 
 .port-header {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -164,9 +166,12 @@ a {
 
 .footer{
     background-color: #2e2f42;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
+}
+
+.foot-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
