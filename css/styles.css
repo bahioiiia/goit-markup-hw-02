@@ -24,6 +24,14 @@ a {
         color: #4d5ae5;
 }
 
+.logo-head-span {
+    color: #2e2f42;
+}
+
+.logo-foot-span {
+    color: #f4f4fd;
+}
+
 .header-menu-link{
     font-weight: 500;
     font-size: 16px;
